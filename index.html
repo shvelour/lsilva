@@ -2,26 +2,27 @@
 <html lang="pt-BR">
 
 <head>
-  <!-- Meta tags -->
+  
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- title -->
+
   <title> JessyBatista</title>
-  <!-- CSS -->
+ 
   <link rel="stylesheet" href="css/extends.css" />
-  <!-- Fonts -->
+ 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
 <body>
-  <!-- navbar -->
+  
   <nav class="navbar">
     <div class="navbar__content max-width mb-0">
       <a id="logo" href="/">
-        <img src="assets/logo.png" alt="Lucas Silva" />
+        <img src="assets/logo.png" alt="Jessica Batista" />
       </a>
       <ul class="navbar__links">
         <li><a href="#header">Início</a></li>
@@ -43,7 +44,7 @@
     </div>
   </nav>
 
-  <!-- header -->
+  
   <header id="header" class="max-width">
     <div class="header__left">
       <h1>Olá! Sou Jessica Batista Desenvolvedora Web</h1>
@@ -62,7 +63,7 @@
     </div>
   </header>
 
-  <!-- Sobre -->
+  
   <section id="about" class="about max-width">
     <div class="about__left">
       <h2 class="secondary-title">Além do código: quem sou eu?</h2>
@@ -92,8 +93,8 @@
         mas sempre procuro evoluir e me aprimorar.
       </p>
       <p>
-        Atualmente, faço parte do Programadores do Amanhã, onde estou desenvolvendo minhas habilidades de Full Stack,
-        inglês e SoftSkills.
+        Já fui aluna do Programadores do Amanhã, onde eu desenvolvi minhas habilidades de Full Stack,
+        Inglês e SoftSkills.
       </p>
         <p>
         Apesar de ser uma pessoa introvertida, estou sempre na procura de evoluir. Sou atenciosa e dedicada, sempre
@@ -102,7 +103,7 @@
     </div>
   </section>
 
-  <!-- habilidades -->
+ 
   <section id="skills" class="skills">
     <div class="skills__content max-width">
       <h2 class="tertiary-title">Meus Serviços</h2>
@@ -129,40 +130,23 @@
     </div>
   </section>
 
-  <!-- Projetos -->
-  <section id="projects" class="projects">
-  <form class="contato" method="get">
-    <div class="container">
-      <div class="title">
-        <h1 id="forms-h1">Faça seu orçamento!</h1>
-        <h2>Preencha o formulário abaixo: </h2>
-        <div class="form">
-          <div class="configImg">
-            <img src="assets/form.png">
-            <div class="inputStyle">
-              <input type="text" name="username" placeholder="Digite seu nome aqui" autocomplete="name" required>
-              <a>Mensagem de erro</a>
-              <input type="email" name="email" placeholder="Digite seu email aqui" autocomplete="email"required >
-              <a>Mensagem de erro</a>
-              <input type="number" name="phone" placeholder="Digite seu telefone aqui" autocomplete="tel" required>
-              <a>Mensagem de erro</a>
+
   
-            </div>
-          </div>
-          <div class="inputStyle">
-            <textarea resi name="message" placeholder="Escreva o serviço desejado..." required></textarea>
-          </div>
-          <div>
-            <button id="btnLimpar" type="reset" onclick="clearForm()">Limpar</button>
-            <button id="btnEnviar" type="submit">Enviar</button>
-          </div>
-        </div>
-      </div>
+
+  <section class="sectionContact">
+
+    <div class="contact">
+      <h2>
+        <span>Quer impulsionar sua marca ou desenvolver uma
+           identidade visual única? Entre em contato e vamos juntos dar vida às suas ideias!</span>
+      </h2>
+      <a href="https://wa.me/5531975682614" target="_blank">
+      <button class="btnContact">Contato</button>
+      </a>
     </div>
-    </form>
   </section>
 
-  <!-- Footer -->
+
   <footer id="footer">
     <div class="footer__content max-width mb-0">
       <div class="footer__contact mb-m">
@@ -185,7 +169,7 @@
       </p>
     </div>
   </footer>
-  <!-- script -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="scripts/index.js"></script>
 </body>
 

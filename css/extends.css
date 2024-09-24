@@ -7,5 +7,7 @@
 @import './components/skills.css';
 @import './components/projects.css';
 @import './components/footer.css';
+@import './components/carousel.css';
+@import './components/contact.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200&display=swap');
