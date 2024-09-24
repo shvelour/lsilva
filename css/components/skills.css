@@ -16,7 +16,7 @@
 .skills .skills__content ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .skills .skills__content ul li .image-container {
@@ -33,7 +33,8 @@
 }
 
 .skills .skills__content ul li h3 {
-  font-size: 1.6rem;
-  font-weight: 500;
+  font-size: 1.8rem;
+  font-weight: 700;
   margin: 2rem 0 1rem;
+ color: var(--dark-secondary-color);
 }
